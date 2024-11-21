@@ -5,6 +5,11 @@ main {
   align-items:center;
   }
 
+header {
+  display:inline;
+  height: 50px;
+  background-color: #121212;
+  }
 
 #orange {
   width: 200px;
