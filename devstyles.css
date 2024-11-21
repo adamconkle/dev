@@ -8,7 +8,8 @@ main {
 
 #orange {
   width: 200px;
-  height:200px;
+  height:240px;
+  z-index: -1;
   }
 
 
