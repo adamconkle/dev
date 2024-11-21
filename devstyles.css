@@ -6,10 +6,21 @@ main {
   }
 
 header {
-  display:inline;
+  display:block;
   height: 50px;
-  background-color: #121212;
+  width: 100%;
+  background-color: #eee;
   }
+
+.mainNav {
+  list-style-type: none;
+  display:inline-block;
+}
+
+li {
+  float: left;
+  padding: 10px;
+}
 
 #orange {
   width: 200px;
