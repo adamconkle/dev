@@ -1,17 +1,30 @@
+main {
+  display: flex;
+  justify-content:center;
+  align-content:center;
+  }
+
+
+#orange {
+  width: 200px;
+  height:200px;
+  }
+
+
 .iframe-container {
   width: 80%;
   height: 200px;
   background-color: red;
-}
+  }
 
 
 .iframe-header {
   width: 80%;
   height: 50px;
   background-color: gray;
-}
+  }
           
 #closeButton {
   color: green;
-}
+  }
 
