@@ -15,6 +15,7 @@ header {
 .mainNav {
   list-style-type: none;
   display:inline-block;
+  align-items: baseline;
 }
 
 li {
