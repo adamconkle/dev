@@ -88,6 +88,14 @@ li {
 
 /* Buttons */
 
+    @keyframes shake {
+      0% { transform: translateX(0); }
+      25% { transform: translateX(-3px); }
+      50% { transform: translateX(3px); }
+      75% { transform: translateX(-3px); }
+      100% { transform: translateX(0); }
+    }
+
     .button {
       background-color: #0bf17d;
       color: black;
@@ -109,6 +117,12 @@ li {
       justify-content: center;
       align-items: center;
       align-content: center;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+      transition: transform 0.2s ease-in-out; /* shake on hover */
+    }
+
+    .social:hover {
+      animation: shake 0.3s ease-in-out;
     }
 
 .socialmedia {
