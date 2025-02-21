@@ -11,10 +11,10 @@ header {
   height: 200px;
   width: 100%;
   background-color: #eee;
+  padding: .5em;
   }
 
 #mainNav {
-  list-style-type: none;
   display:flex;
   justify-content:right;
   align-items: baseline;
@@ -23,6 +23,8 @@ header {
 
 li {
   padding: 10px;
+  list-style-type: none;
+  flex-direction: row;
 }
 
 .iframe-container {
