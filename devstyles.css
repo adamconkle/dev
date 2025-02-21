@@ -87,9 +87,12 @@ li {
   }
 
 #social {
-  color: #eee;
   font-size: 1.5em;
   padding: 5px;
+  background-color: #0bf17d;
+  color: black;
+  border-radius: 15px;
+  border: 1px solid white;
 }
 
 footer {
