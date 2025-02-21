@@ -1,3 +1,5 @@
+/* Palette: #91eb0d, #43493a, #a7ae9c */
+
 * {
   font-family: Montserrat, Inter, Roboto, sans-serif;
 }
@@ -14,7 +16,7 @@ header {
   height: 200px;
   width: 100%;
   align-items: baseline;
-  background-color: #eee;
+  background-color: #a7ae9c;
   padding: .5em;
   }
 
@@ -65,5 +67,6 @@ li {
 
 
 footer {
-  text-align:center
+  text-align:center;
+  background-color: #a7ae9c;
 }
