@@ -13,11 +13,12 @@ header {
   align-items:center;
   }
 
-.mainNav {
+#mainNav {
   list-style-type: none;
   display:flex;
   justify-content:right;
   align-items: baseline;
+  flex-direction: row;
 }
 
 li {
