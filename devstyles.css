@@ -47,6 +47,21 @@ li {
   height: 50px;
   background-color: gray;
   }
+
+
+.iframe {
+  display: block; 
+  width="100%"; 
+  height= "calc(100% - 40px"; 
+  frameborder="0";
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  z-index: 1;
+  border: none;
+}
+
           
 #closeButton {
   color: green;
