@@ -1,4 +1,4 @@
-/* Palette: #0bf17d, #eee, #121212 */
+/* Palette: #0bf17d (bright green), #eee, #121212, #9b30ff (bright purple */
 
 * {
   font-family: Montserrat, Inter, Roboto, sans-serif;
@@ -98,11 +98,11 @@ li {
     }
 
     .button {
-      background-color: #0bf17d;
+      background-color: #9b30ff;
       color: black;
       border-radius: 15px;
       border: 1px solid white;
-      padding: 5px;
+      padding: 10px;
     }
 
     .social {
