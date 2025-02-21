@@ -1,4 +1,4 @@
-/* Palette: #91eb0d, #43493a, #a7ae9c */
+/* Palette: #0bf17d, #eee, #121212 */
 
 * {
   font-family: Montserrat, Inter, Roboto, sans-serif;
@@ -13,11 +13,10 @@ body {
   }
 
 header {
-  height: 200px;
+  height: 150px;
   width: 100%;
   align-items: baseline;
-  background-color: #a7ae9c;
-  padding: .5em;
+  background-color: #121212;
   }
 
 #mainNav {
@@ -82,13 +81,13 @@ li {
   }
 
 #social {
-  color: #43493a;
+  color: #eee;
   font-size: 1.5em;
   padding: 5px;
 }
 
 footer {
   text-align:center;
-  background-color: #a7ae9c;
-  height: 100px;
+  background-color: #121212;
+  height: 150px;
 }
