@@ -1,4 +1,6 @@
 main {
+  margin: 0;
+  padding: 0;
   display: flex;
   justify-content:center;
   align-content:center;
@@ -7,33 +9,21 @@ main {
 
 header {
   display:block;
-  height: 50px;
+  height: 200px;
   width: 100%;
   background-color: #eee;
   }
 
 .mainNav {
   list-style-type: none;
-  display:inline-block;
+  display:flex;
+  justify-content:right;
   align-items: baseline;
 }
 
 li {
-  float: left;
   padding: 10px;
 }
-
-#orange {
-  width: 200px;
-  height:250px;
-  z-index: -1;
-  }
-
-#orangeNav {
-  width: 28px;
-  height:35px;
-  }
-
 
 .iframe-container {
   width: 80%;
