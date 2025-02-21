@@ -97,12 +97,17 @@ li {
       100% { transform: translateX(0); }
     }
 
-    .button {
+    .contact {
       background-color: #9b30ff;
-      color: black;
+      box-shadow: 0 0 15px 1px rgba(255, 255, 255, 0.5);
+      color: white;
       border-radius: 15px;
-      border: 1px solid white;
       padding: 10px;
+      transition: transform 0.2s ease-in-out; /* shake on hover */
+    }
+
+    .contact:hover {
+      animation: shake 0.3s ease-in-out;
     }
 
     .social {
