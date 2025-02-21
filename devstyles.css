@@ -17,7 +17,13 @@ header {
   width: 100%;
   align-items: baseline;
   background-color: #121212;
+  color: white;
   }
+
+a {
+  color: #0bf17d;
+  text-decoration:none;
+}
 
 #mainNav {
   display:flex;
@@ -89,5 +95,6 @@ li {
 footer {
   text-align:center;
   background-color: #121212;
+  color: white;
   height: 150px;
 }
