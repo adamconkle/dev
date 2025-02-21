@@ -24,6 +24,7 @@ header {
 a {
   color: #0bf17d;
   text-decoration:none;
+  cursor: pointer;
 }
 
 #mainNav {
@@ -109,6 +110,7 @@ li {
 
     .contact:hover {
       animation: shake 0.3s ease-in-out;
+      cursor: pointer;
     }
 
     .social {
