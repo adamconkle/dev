@@ -86,14 +86,23 @@ li {
   color: green;
   }
 
-#social {
-  font-size: 1.5em;
-  padding: 5px;
-  background-color: #0bf17d;
-  color: black;
-  border-radius: 15px;
-  border: 1px solid white;
-}
+/* Buttons */
+
+    .button {
+      background-color: #0bf17d;
+      color: black;
+      border-radius: 15px;
+      border: 1px solid white;
+      padding: 5px;
+    }
+
+    #social {
+      padding: 5px;
+      background-color: #0bf17d;
+      color: black;
+      border-radius: 15px;
+      border: 1px solid white;
+    }
 
 footer {
   text-align: center;
