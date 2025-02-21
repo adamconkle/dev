@@ -97,19 +97,23 @@ li {
     }
 
     .social {
-      padding: 5px;
+      padding: 10px;
       background-color: #0bf17d;
       color: black;
       border-radius: 15px;
-      border: 1px solid white;
+      border: none;
+      width: 50px;
     }
 
-footer {
-  text-align: center;
+.socialmedia {
   display: flex;
   justify-content: center;
   align-items: center;
   align-content: center;
+}
+
+footer {
+  text-align: center;
   background-color: #121212;
   color: white;
   height: 150px;
