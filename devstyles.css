@@ -13,15 +13,6 @@ body {
   overflow: hidden;
   }
 
-header {
-  height: 150px;
-  width: 100%;
-  align-items: center;
-  background-color: #121212;
-  color: white;
-  padding: 20px;
-  }
-
 a {
   color: #0bf17d;
   text-decoration:none;
