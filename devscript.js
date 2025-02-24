@@ -1,12 +1,26 @@
+// Ensure script runs only after DOM is loaded
+document.addEventListener("DOMContentLoaded", function () {
+    console.log("devscript.js loaded");
+
+    // Open iFrame button event
+    document.querySelector(".open-btn").addEventListener("click", openIframe);
+    
+    // Close iFrame when clicking overlay or button
+    document.getElementById("iframeOverlay").addEventListener("click", closeIframe);
+});
+
+// Function to show the iFrame overlay
 function openIframe() {
-     document.getElementById('iframeOverlay').classList.add('show');
+    document.getElementById("iframeOverlay").classList.add("show");
 }
 
+// Function to close the iFrame overlay
 function closeIframe(event) {
-     if (event.target.classList.contains('iframe-overlay') || event.target.classList.contains('close-btn')) {
-         document.getElementById('iframeOverlay').classList.remove('show');
-     }
+    if (event.target.id === "iframeOverlay" || event.target.classList.contains("close-btn")) {
+        document.getElementById("iframeOverlay").classList.remove("show");
+    }
 }
+
 
 
 // Buy Me A Coffee
