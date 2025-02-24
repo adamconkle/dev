@@ -16,10 +16,10 @@ body {
 header {
   height: 150px;
   width: 100%;
-  align-items: baseline;
+  align-items: center;
   background-color: #121212;
   color: white;
-  padding: 1em;
+  padding: 20px;
   }
 
 a {
