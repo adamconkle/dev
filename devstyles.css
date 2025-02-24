@@ -89,6 +89,7 @@ li {
             border: none;
             overflow: auto !important;
             -webkit-overflow-scrolling: touch;
+            overflow-y: auto;
         }
 
         /* Close button */
