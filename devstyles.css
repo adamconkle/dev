@@ -32,6 +32,20 @@ li {
   flex-direction: row;
 }
 
+/* sidebyside */
+#intro {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+
+#portrait {
+  border-radius: 300px;
+  float-left;
+}
+
+
+/* project section */
 .container {
   display: grid;
   grid-template-columns: auto auto auto;
