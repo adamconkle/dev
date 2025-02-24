@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     const overlay = document.getElementById("iframeOverlay");
+    const openBtn = document.querySelector(".open-btn");
     const closeBtn = document.querySelector(".close-btn");
 
     function openIframe() {
@@ -7,15 +8,19 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function closeIframe(event) {
-        // Ensure the event is triggered only when clicking outside the iframe or on the close button
-        if (event.target.classList.contains("iframe-overlay") || event.target.classList.contains("close-btn")) {
+        // Ensure close action triggers on overlay click or close button click
+        if (event.target === overlay || event.target.classList.contains("close-btn")) {
             overlay.classList.remove("show");
         }
     }
 
-    // Attach event listeners
+    // Open button event listener
+    openBtn.addEventListener("click", openIframe);
+    openBtn.addEventListener("touchstart", openIframe); // Ensures touch works on mobile
+
+    // Close event listeners
     overlay.addEventListener("click", closeIframe);
-    overlay.addEventListener("touchstart", closeIframe); // Fix for mobile touch
+    overlay.addEventListener("touchstart", closeIframe); // Fix for mobile
 
     closeBtn.addEventListener("click", closeIframe);
     closeBtn.addEventListener("touchstart", closeIframe); // Extra fix for mobile
