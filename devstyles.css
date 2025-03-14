@@ -2,17 +2,16 @@
 * {
   font-family: Poppins, Jost, Lato, Lexend, Inter, sans-serif;
   font-weight: 300;
-  color: #333;
+  /*color: #333;*/
   background-color:#121212; /* use for dark mode */
   background-color:#F9F9F9;
-  margin: 0;
-  padding: 0;
 }
 
 body {
   font-family: Monserrat, Lexend, Inter, sans-serif;
   font-weight: 300;  
-  overflow: hidden;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
