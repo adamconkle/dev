@@ -1,10 +1,9 @@
+/* Palette: #0bf17d (bright green), #eee, #121212, #c7c7c7, #9b30ff (bright purple */
+
 /* General */
 * {
   font-family: Poppins, Jost, Lato, Lexend, Inter, sans-serif;
   font-weight: 300;
-  /*color: #333;*/
-  background-color:#121212; /* use for dark mode */
-  background-color:#F9F9F9;
 }
 
 body { 
@@ -33,10 +32,10 @@ nav {
   padding: 1rem;
   font-size: 2rem;
   margin-bottom: 10px;
-  list-style-type:none;
+  list-style-type: none;
   color: white;
   width: 100%;
-  text-align:center;
+  text-align: center;
 }
 
 #main > li:hover {
@@ -64,45 +63,6 @@ nav {
 #experience, li {
   list-style-type: none;
   text-align: center;
-}
-
-
-
-/* Palette: #0bf17d (bright green), #eee, #121212, #c7c7c7, #9b30ff (bright purple */
-/*
-* {
-  font-family: Montserrat, Inter, Roboto, sans-serif;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  display:flex;
-  flex-direction: column;
-  justify-content: space-between;
-  }
-
-a {
-  color: #0bf17d;
-  text-decoration:none;
-  cursor: pointer;
-}
-
-header {
-  padding: 20px;
-}
-
-#mainNav {
-  display:flex;
-  justify-content:right;
-  align-items: baseline;
-  flex-direction: row;
-}
-
-li {
-  padding: 10px;
-  list-style-type: none;
-  flex-direction: row;
 }
 
 /* sidebyside */
@@ -175,7 +135,6 @@ li {
             border-radius: 4px;
             z-index: 9999; /* Ensures it's on top */
 }
-
 
         .close-btn:hover {
             background: darkred;
