@@ -1,7 +1,7 @@
 /* General */
 * {
-  font-family: Lexend, Inter, sans-serif;
-  font-weight: 300 ;
+  font-family: Monserrat, Lexend, Inter, sans-serif;
+  font-weight: 300;
   color: #333;
   background-color:#121212; /* use for dark mode */
   background-color:#F9F9F9;
@@ -10,7 +10,8 @@
 }
 
 body {
-  
+  font-family: Monserrat, Lexend, Inter, sans-serif;
+  font-weight: 300;  
 }
 
 h1 {
