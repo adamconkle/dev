@@ -1,5 +1,77 @@
-/* Palette: #0bf17d (bright green), #eee, #121212, #c7c7c7, #9b30ff (bright purple */
+/* General */
+* {
+  font-family: Lexend, Inter, sans-serif;
+  font-weight: 300 ;
+  color: #333;
+  background-color:#121212; /* use for dark mode */
+  background-color:#F9F9F9;
+  margin: 0;
+  padding: 0;
+}
 
+body {
+  
+}
+
+h1 {
+  font-size: 4rem;
+  color: #333;
+  text-align:center;
+}
+
+#logo {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+/* Nav */
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+#main > li {
+  padding: 1rem;
+  font-size: 2rem;
+  margin-bottom: 10px;
+  list-style-type:none;
+  color: white;
+  width: 100%;
+  text-align:center;
+}
+
+#main > li:hover {
+  background-color: lightgreen;
+  cursor: pointer;
+  transform: scaleY(1.1);
+  opacity: .9;
+}
+
+#social > li {
+  padding: 1rem;
+  list-style-type: none;
+  background-color: teal;
+  color: white;
+  justify-content: center;
+  align-content:center;
+  align-items:center;
+}
+
+
+.content {
+  padding: 5%;
+}
+
+#experience, li {
+  list-style-type: none;
+  text-align: center;
+}
+
+
+
+/* Palette: #0bf17d (bright green), #eee, #121212, #c7c7c7, #9b30ff (bright purple */
+/*
 * {
   font-family: Montserrat, Inter, Roboto, sans-serif;
 }
@@ -35,7 +107,7 @@ li {
   flex-direction: row;
 }
 
-/* sidebyside */
+/* sidebyside 
 #intro {
   display: grid;
   grid-template-columns: auto auto;
@@ -55,9 +127,9 @@ li {
 }
 
 
-/* project section */
+/* project section 
 
-        /* Overlay */
+        /* Overlay 
         .iframe-overlay {
             position: fixed;
             top: 0;
@@ -91,7 +163,7 @@ li {
             -webkit-overflow-scrolling: touch;
         }
 
-        /* Close button */
+        /* Close button 
         .close-btn {
             position: absolute;
             top: 10px;
@@ -103,7 +175,7 @@ li {
             cursor: pointer;
             font-size: 16px;
             border-radius: 4px;
-            z-index: 9999; /* Ensures it's on top */
+            z-index: 9999; /* Ensures it's on top 
 }
 
 
@@ -111,13 +183,13 @@ li {
             background: darkred;
         }
 
-        /* Show overlay */
+        /* Show overlay 
         .show {
             visibility: visible;
             opacity: 1;
         }
 
-        /* Button to trigger */
+        /* Button to trigger 
         .open-btn {
             padding: 10px 20px;
             background: blueviolet;
@@ -132,7 +204,7 @@ li {
             background: purple;
         }
 
-/* Buttons */
+/* Buttons 
 
     @keyframes shake {
       0% { transform: translateX(0); }
@@ -151,7 +223,7 @@ li {
       border: none;
       border-radius: 15px;
       padding: 15px;
-      transition: transform 0.2s ease-in-out; /* shake on hover */
+      transition: transform 0.2s ease-in-out; /* shake on hover 
     }
 
     .contact:hover {
@@ -173,8 +245,8 @@ li {
       align-items: center;
       align-content: center;
       box-shadow: 0 0 15px 1px rgba(255, 255, 255, 0.5);
-      transition: transform 0.2s ease-in-out; /* shake on hover */
-    }
+      transition: transform 0.2s ease-in-out;  /* shake on hover */ 
+/*    }
 
     .social:hover {
       animation: shake 0.3s ease-in-out;
@@ -194,3 +266,4 @@ footer {
   color: white;
   height: 150px;
 }
+*/
