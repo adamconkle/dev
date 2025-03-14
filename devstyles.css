@@ -107,7 +107,7 @@ li {
   flex-direction: row;
 }
 
-/* sidebyside 
+/* sidebyside */
 #intro {
   display: grid;
   grid-template-columns: auto auto;
@@ -127,9 +127,9 @@ li {
 }
 
 
-/* project section 
+/* project section */
 
-        /* Overlay 
+        /* Overlay */
         .iframe-overlay {
             position: fixed;
             top: 0;
@@ -204,7 +204,7 @@ li {
             background: purple;
         }
 
-/* Buttons 
+/* Buttons */
 
     @keyframes shake {
       0% { transform: translateX(0); }
@@ -223,7 +223,7 @@ li {
       border: none;
       border-radius: 15px;
       padding: 15px;
-      transition: transform 0.2s ease-in-out; /* shake on hover 
+      transition: transform 0.2s ease-in-out; /* shake on hover */
     }
 
     .contact:hover {
@@ -246,7 +246,7 @@ li {
       align-content: center;
       box-shadow: 0 0 15px 1px rgba(255, 255, 255, 0.5);
       transition: transform 0.2s ease-in-out;  /* shake on hover */ 
-/*    }
+    }
 
     .social:hover {
       animation: shake 0.3s ease-in-out;
@@ -266,4 +266,4 @@ footer {
   color: white;
   height: 150px;
 }
-*/
+
