@@ -36,6 +36,7 @@ ul {
 
 #main > ul > li {
   padding: 1rem;
+  font-size: 4vw;
   margin-bottom: 10px;
   list-style-type: none;
   color: white;
