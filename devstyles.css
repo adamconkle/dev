@@ -24,10 +24,11 @@ h1 {
 
 /* Nav */
 
-nav {
+#main ul {
   display: grid;
   grid-template-columns: auto auto auto;
-  justify-content: center;
+  padding: 0;
+  margin: 0;
 }
 
 #main > li {
