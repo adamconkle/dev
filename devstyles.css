@@ -119,7 +119,6 @@
 body { 
   margin: 0;
   padding: 0;
-  overflow: hidden;
   background-color: #0bf17d;
   font-family: Poppins, Jost, Lato, Lexend, Inter, sans-serif;
 }
