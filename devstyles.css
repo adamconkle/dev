@@ -27,8 +27,6 @@ h1 {
 #main ul {
   display: grid;
   grid-template-columns: auto auto auto;
-  padding: 0;
-  margin: 0;
 }
 
 #main > li {
