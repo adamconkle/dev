@@ -305,7 +305,8 @@ ul {
             height: 100%;
             border: none;
             overflow: auto !important;
-            -webkit-overflow-scrolling: touch;
+            -webkit-overflow-scrolling: touch; /* Enables smooth scrolling on iOS */
+            touch-action: pan-y; /* Ensures vertical scrolling works */
         }
 
         /* Close button */
