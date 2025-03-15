@@ -162,7 +162,7 @@ ul {
 }
 
 @media screen and (max-width: 480px) {
-  #main > ul >li {
+  #main > ul > li {
     font-size: 6vw;
   }
 }
