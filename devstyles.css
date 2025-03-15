@@ -4,7 +4,7 @@
 * {
   font-family: Poppins, Jost, Lato, Lexend, Inter, sans-serif;
   font-weight: 300;
-    outline: 2px solid red; /* Highlights all elements */
+                    outline: 2px solid red; /* Highlights all elements */
 }
 
 body { 
@@ -31,7 +31,7 @@ nav {
 
 #main > li {
   padding: 1rem;
-  font-size: 2rem;
+  font-size: 1em;
   margin-bottom: 10px;
   list-style-type: none;
   color: white;
