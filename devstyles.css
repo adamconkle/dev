@@ -294,7 +294,7 @@ ul {
             position: relative;
             width: 90%;
             max-width: 90vw;
-            height: 80vh;
+            height: 90vh;
             background: #fff;
             border-radius: 8px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
@@ -305,8 +305,9 @@ ul {
             height: 100%;
             border: none;
             overflow: auto !important;
-            -webkit-overflow-scrolling: touch; /* Enables smooth scrolling on iOS */
-
+            -webkit-overflow-scrolling: touch; /* Enables smooth scrolling */
+            touch-action: auto; /* Allows touch gestures */
+            display: block; /* Prevents unwanted spacing issues */
         }
 
         /* Close button */
