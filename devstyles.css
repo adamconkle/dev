@@ -162,29 +162,42 @@ ul {
 }
 
 /* Subnav */
+#main ul li {
+  position: relative; /* Needed to position the subnav properly */
+}
+
 #main ul li ul {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: #444;
-    padding: 0;
-    list-style: none;
-    min-width: 120px;
-  }
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #444;
+  padding: 0;
+  list-style: none;
+  min-width: 150px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000; /* Ensures it appears on top of other elements */
+}
 
 #main ul li:hover ul {
-    display: block;
-  }
+  display: block;
+}
 
 #main ul li ul li {
-    padding: 10px;
-    background-color: #666;
-  }
+  padding: 10px;
+  background-color: #666;
+  color: white;
+  text-align: center;
+  transition: background-color 0.3s;
+  white-space: nowrap; /* Prevents text from wrapping */
+}
 
 #main ul li ul li:hover {
-    background-color: #888;
-  }
+  background-color: #888;
+}
+
 
 @media screen and (max-width: 480px) {
   #main > ul > li {
