@@ -161,6 +161,31 @@ ul {
   opacity: .9;
 }
 
+/* Subnav */
+#main ul li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #444;
+    padding: 0;
+    list-style: none;
+    min-width: 120px;
+  }
+
+#main ul li:hover ul {
+    display: block;
+  }
+
+#main ul li ul li {
+    padding: 10px;
+    background-color: #666;
+  }
+
+#main ul li ul li:hover {
+    background-color: #888;
+  }
+
 @media screen and (max-width: 480px) {
   #main > ul > li {
     font-size: 5vw;
