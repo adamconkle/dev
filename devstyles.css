@@ -25,14 +25,14 @@ h1 {
 /* Nav */
 
 nav {
-  display: flex;
+  display: grid;
+  grid-column-layout: auto auto auto;
   justify-content: center;
 }
 
 #main > li {
   padding: 1rem;
   font-size: 2rem;
-  max-width: 100%;
   margin-bottom: 10px;
   list-style-type: none;
   color: white;
