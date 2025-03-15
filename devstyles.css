@@ -4,6 +4,7 @@
 * {
   font-family: Poppins, Jost, Lato, Lexend, Inter, sans-serif;
   font-weight: 300;
+    outline: 2px solid red; /* Highlights all elements */
 }
 
 body { 
