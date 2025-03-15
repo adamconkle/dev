@@ -4,7 +4,6 @@
 * {
   font-family: Poppins, Jost, Lato, Lexend, Inter, sans-serif;
   font-weight: 300;
-                    outline: 2px solid red; /* Highlights all elements */
 }
 
 body { 
@@ -56,6 +55,8 @@ ul {
   list-style-type: none;
   background-color: teal;
   color: white;
+  display: flex;
+  flex-direction: row;
   justify-content: center;
   align-content:center;
   align-items:center;
