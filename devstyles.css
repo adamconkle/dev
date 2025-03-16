@@ -166,8 +166,6 @@ ul {
   opacity: .9;
 }
 
-/* Subnav */
-/* Fix subnav positioning */
 #main ul {
   display: grid;
   grid-template-columns: repeat(3, auto);
@@ -231,6 +229,7 @@ ul {
 
 #main ul li ul li:hover {
   background-color: #0bf17d;
+  opacity: .9;
 }
 
 
