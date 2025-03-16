@@ -216,7 +216,7 @@ ul {
 
 #main ul li ul li:hover {
   background-color: #0bf17d;
-  opacity: .9;
+  filter: brightness(0.85); /* Darkens the color */
 }
 
 
