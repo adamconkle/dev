@@ -209,7 +209,7 @@ ul {
 }
 
 #main ul li:hover ul {
-  display: block;
+ /* display: block; */
   opacity: 1;
   visibility: visible;
 }
