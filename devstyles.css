@@ -169,6 +169,17 @@ ul {
   opacity: 0.9;
 }
 
+/* for testimonials nav */
+#main ul li a {
+  color: black; /* Match the text color of the other list items */
+  text-decoration: none;
+}
+
+#main ul li a:hover {
+  color: black; /* Ensures hover doesn't change color */
+}
+
+
 /* Subnav */
 #main ul li ul {
   display: block;
