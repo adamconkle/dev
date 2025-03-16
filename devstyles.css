@@ -290,6 +290,7 @@ ul {
         }
 
         .iframe-container {
+          overflow: hidden;
             position: relative;
             width: 90%;
             max-width: 90vw;
@@ -308,6 +309,12 @@ ul {
             touch-action: auto; /* Allows touch gestures */
             display: block; /* Prevents unwanted spacing issues */
         }
+
+        body.no-scroll {    /*stops parent page from scrolling when iframe is active */
+            overflow: hidden;
+            height: 100vh;
+        }
+
 
         /* Close button */
         .close-btn {
