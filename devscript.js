@@ -5,6 +5,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function openIframe() {
         overlay.classList.add("show");
+        document.querySelector('.iframe-overlay').classList.add('show');
+        document.body.classList.add('no-scroll'); // Disable page scroll
     }
 
     function closeIframe(event) {
@@ -12,6 +14,8 @@ document.addEventListener("DOMContentLoaded", function () {
         if (event.target === overlay || event.target.classList.contains("close-btn")) {
             overlay.classList.remove("show");
         }
+        document.querySelector('.iframe-overlay').classList.remove('show');
+        document.body.classList.remove('no-scroll'); // Re-enable page scroll
     }
 
     // Open button event listener
