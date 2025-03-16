@@ -1,4 +1,4 @@
-/* Palette: #0bf17d (bright green), #eee, #121212, #c7c7c7, #9b30ff (bright purple */
+/* Palette: #0bf17d (bright green), #eee, #121212, #c7c7c7, #9b30ff (bright purple) */
 
 /* font-family: Poppins */
 .poppins-thin {
@@ -145,30 +145,6 @@ ul {
 #main ul {
   display: grid;
   grid-template-columns: auto auto auto;
-  text-align: center;
-}
-
-#main > ul > li {
-  padding: 1rem;
-  font-size: 2vw;
-  margin-bottom: 10px;
-  list-style-type: none;
-  color: white;
-  width: auto;
-  text-align: center;
-  transition: transform 1s;
-}
-
-#main > ul > li:hover {
-  background-color: #0bf17d;
-  cursor: pointer;
-  transform: scaleY(1.1);
-  opacity: .9;
-}
-
-#main ul {
-  display: grid;
-  grid-template-columns: repeat(3, auto);
   text-align: center;
 }
 
