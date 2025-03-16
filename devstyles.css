@@ -191,7 +191,7 @@ ul {
 
 /* Subnav */
 #main ul li ul {
-  display: none;
+  display: block;
   position: absolute;
   top: 100%;
   left: 50%;
@@ -205,11 +205,12 @@ ul {
   z-index: 1000;
   opacity: 0;
   visibility: hidden;
-  transition: display 2s;
+  transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
 }
 
 #main ul li:hover ul {
-  display: block; 
+  opacity: 1;
+  visibility: visible;
 }
 
 #main ul li ul li {
