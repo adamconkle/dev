@@ -175,7 +175,7 @@ ul {
   padding: 1rem;
   font-size: 2vw;
   list-style-type: none;
-  color: white;
+  color: black;
   width: auto;
   text-align: center;
   display: flex;
@@ -217,15 +217,15 @@ ul {
 
 #main ul li ul li {
   padding: 10px;
-  background-color: #666;
-  color: white;
+  background-color: #0bf17d;
+  color: black;
   text-align: center;
   transition: background-color 0.3s;
   white-space: nowrap; /* Prevents text from wrapping */
 }
 
 #main ul li ul li:hover {
-  background-color: #888;
+  background-color: #0bf17d;
 }
 
 
