@@ -273,6 +273,18 @@ ul {
 
 /* project section */
 
+#projects {
+  width: 95%;
+  border: 1px solid #555;
+  display: flex;
+  justify-content: space-around;
+}
+#projects > div {
+  color: red;
+  width: 5rem;
+  border: 1px solid red;
+}
+
         /* Overlay */
         .iframe-overlay {
             position: fixed;
